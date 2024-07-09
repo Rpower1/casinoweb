@@ -1,0 +1,23 @@
+body{
+    background-color: green;
+}
+.kaart{
+    background-color: white;
+}
+.PP{
+    width: 200px;
+    height: 50px;
+    border-color: red;
+    border-width: thin medium;
+    border-radius: 50px;
+    background-color: black;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+}
+p{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}

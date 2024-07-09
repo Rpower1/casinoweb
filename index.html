@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="Dit is mijn eigen casino">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stijlen.css">
+    </head>
+    <body>
+        <div class="mainplate">
+            <div class='PP'>
+                <img src="/blackjack_assets/images/poker.png" id="logo" style="display: inline;"> 
+                <p style="display: inline;">PP:</p><p id="PP" style="display: inline;">50</p>
+            </div>
+            <div class="speler">
+                <hr>
+                <button class="1plus" id="1plus1">pak 1 kaart</button>
+                <button class="stop" id="stop">stop</button>
+            </div>
+            <div class="tegenstander"></div>
+            <div class="kaartmain">
+                <textarea id="bet"></textarea>
+                <div class="kaartS1">
+                    <img class="kaart" id="kaart1" src="/blackjack_assets/images/A.png" style="display:none;">
+                    <img class="kaart" id="kaart2" src="/blackjack_assets/images/2.png" style="display: none;">
+                    <img class="kaart" id="kaart3" src="/blackjack_assets/images/3.png" style="display: none;">
+                    <img class="kaart" id="kaart4" src="/blackjack_assets/images/4.png" style="display: none;">
+                    <img class="kaart" id="kaart5" src="/blackjack_assets/images/5.png" style="display: none;">
+                    <img class="kaart" id="kaart6" src="/blackjack_assets/images/6.png" style="display: none;">
+                    <img class="kaart" id="kaart7" src="/blackjack_assets/images/7.png" style="display: none;">
+                    <img class="kaart" id="kaart8" src="/blackjack_assets/images/8.png" style="display: none;">
+                    <img class="kaart" id="kaart9" src="/blackjack_assets/images/9.png" style="display: none;">
+                    <img class="kaart" id="kaart10" src="/blackjack_assets/images/10.png" style="display: none;">
+                    <img class="kaart" id="kaart11" src="/blackjack_assets/images/J.png" style="display: none;">
+                    <img class="kaart" id="kaart12" src="/blackjack_assets/images/Q.png" style="display: none;">
+                    <img class="kaart" id="kaart13" src="/blackjack_assets/images/K.png" style="display: none;">
+                </div>
+                <div class="score">
+                <hr>
+                <h1>your score:</h1>
+                <h1 id="scoretext">press stop to calculate your score</h1>
+                <h1>your enemies score:</h1>
+                <h1 id="escore">press stop to calculate</h1>
+                <h1 id="winner">and the winner is:</h1>
+                <hr>
+                <button id="resetknop" style="display: none;">reset</button>
+                <hr id="line" style="display: none;">
+                </div>
+            </div>
+        </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
